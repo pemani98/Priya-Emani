@@ -1,0 +1,38 @@
+/* src/components/Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: top; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    height: 200vh; /* Takes the full height of the viewport */
+    text-align: center;
+    padding-top: 10px; /* Moves everything higher */
+    padding: left 40px;
+    padding: right 40px;
+  }
+  
+  h2 {
+    font-size: 3rem; /* Makes the heading larger */
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.5rem; /* Adjust the paragraph size */
+    margin-top: 10px;
+  }
+  
+  .profile-image {
+
+    margin: 0 10px; /* Space between the text and the image */
+    vertical-align: middle; /* Align the image with the text */
+  }
+  
+  body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #f4f4f4;
+
+  }
