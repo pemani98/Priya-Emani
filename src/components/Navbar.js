@@ -9,9 +9,9 @@ const Navbar = () => {
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/projects">Projects</Link></li>
-        <li><a href="./Padmavati-Emani-CP.pdf" target="_blank" rel="noopener noreferrer">
+        <li>
             Resume
-          </a></li>
+        </li>
       </ul>
     </nav>
   );
