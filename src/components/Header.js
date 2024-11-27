@@ -9,14 +9,17 @@ import {
   Button,
   Drawer,
 } from "@mui/material";
-import { Link as RouterLink } from 'react-router-dom';
+//import { Link as RouterLink } from 'react-router-dom';
 import MenuIcon from "@mui/icons-material/Menu";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Link as ScrollLink } from "react-scroll";
+
 
 const pages = [
-  {name: "Home", id:"home", link:"/"},
-  { name: "About", id: "about", link: "/about" },
-  { name: "Projects", id: "projects", link: "/projects" },
-  { name: "Contact", id: "contact", link:'/contact' },
+  {name: "Home", id:"home"},
+  { name: "About", id: "about" },
+  { name: "Projects", id: "projects" },
+  { name: "Contact", id: "contact"},
 ];
 const NavList = ({ ...props }) => {
   return (
@@ -30,22 +33,18 @@ const NavList = ({ ...props }) => {
       {...props}
     >
       {pages.map(page => (
-        <RouterLink
-          to={page.link}
-          key={page.id}
-
-          >
-
-            <Link
-          sx={{
-            color: { xs: "primary", sm: "white" } 
-            
-          }}
-          >
-        
-          {page.name}
-        </Link>
-        </RouterLink>
+         
+         <ScrollLink
+            key={page.id}
+            to={page.id}
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass="active"
+            style={{ cursor: "pointer", color: "white", textDecoration: "none" }}
+       >
+         {page.name}
+       </ScrollLink>
       ))}
     </Stack>
   );

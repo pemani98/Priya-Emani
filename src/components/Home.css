@@ -48,3 +48,23 @@
     grid-template-columns: 10rem 10rem 10rem;
     grid-gap: 1rem;
   }
+
+
+  .text-section {
+    background: linear-gradient(to right, #fff, #eee, #fff);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shine 2s linear infinite;
+  }
+
+
+  
+  @keyframes shine {
+    to {
+      background-position: -200% 0;
+    }
+  }
+
+  
