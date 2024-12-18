@@ -33,7 +33,8 @@ const About = () => {
               and graduated with a Computer Science degree in 2020. I've had a variety of technical roles since. In that time, 
               I've managed to hone my technical skills in Java, Python, SQL, Oracle, Javascript, React, and even some AWS.  
             </h4>
-            <button>Contact</button>
+            <Button style = {{color: "rgba(22 95 195)", background:"white", fontWeight: "600",fontFamily: 'Londrina Sketch', fontSize:"1.5rem"}}>Contact</Button>
+
           </Grid>
             <Grid item xs = {6} >
             <h2 style = {{color:'white', fontFamily: 'Manrope'}}>My Skills</h2>

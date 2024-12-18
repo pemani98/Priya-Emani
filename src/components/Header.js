@@ -18,7 +18,7 @@ import { Link as ScrollLink } from "react-scroll";
 const pages = [
   {name: "Home", id:"home"},
   { name: "About", id: "about" },
-  { name: "Projects", id: "projects" },
+  { name: "Work", id: "work" },
   { name: "Contact", id: "contact"},
 ];
 const NavList = ({ ...props }) => {

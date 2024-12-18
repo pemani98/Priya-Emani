@@ -1,0 +1,38 @@
+.projectsContainer {
+
+    padding: 60px;
+    background-color: white;
+  
+  }
+  
+  h1{
+      font-family: "Londrina Sketch",
+     
+  
+  }
+  
+  .rounded {
+  
+      border-top: 8px solid #bbb;
+      border-radius: 5px;
+        
+  }
+  
+  .projectList{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  
+  .myProject {
+    padding: 1rem 1rem;
+    margin-bottom: 1.2rem;
+    margin-right: 1.2rem;
+    font-size: 1.2rem;
+    background: rgba(22 95 195) ;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #FFf ;
+    font-family: "Manrope", sans-serif;
+  }
